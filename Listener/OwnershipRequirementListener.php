@@ -2,9 +2,7 @@
 
 namespace Umbrellaweb\Bundle\UsefulAnnotationsBundle\Listener;
 
-use Symfony\Component\DependencyInjection\Exception\BadMethodCallException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\HttpKernel\Exception\FatalErrorException;
 use Doctrine\Common\Annotations\Reader;
 use Symfony\Component\HttpKernel\Event\FilterControllerEvent;
 use Umbrellaweb\Bundle\UsefulAnnotationsBundle\Annotation\OwnershipRequirement;
